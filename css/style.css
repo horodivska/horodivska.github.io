@@ -1,0 +1,83 @@
+body {
+  font-family: "Dejavu Sans Mono";
+  font-size: 12px;
+}
+
+button {
+
+}
+
+input, label {
+  font-family: "Dejavu Sans Mono";
+  line-height: 1.5;
+  font-size: .8rem;
+
+}
+
+pre, code {
+  font-family: "Input Mono";
+}
+
+
+
+label {
+  display: inline-block;
+  min-width: 9rem;
+  margin-right: .5rem;
+}
+
+
+button {
+  height: 1.5rem;
+
+  border-radius: .3rem;
+}
+
+pre {
+  line-height: 2.25;
+}
+
+.inserted:before {
+  content: attr(data-k);
+
+  font-size: 6pt;
+
+
+  position: absolute;
+  margin-top: -1px;
+  line-height: 1;
+
+  background-color: #e0f1f0;
+
+}
+
+.inserted:hover:before {
+}
+
+.inserted {
+  background-color: #e0f1f0;
+
+  display: inline-block;
+  min-width: 75px;
+}
+
+.add_field_cmp {
+
+}
+
+.form {
+  padding: .5rem;
+}
+
+.sqls {
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.01);
+}
+
+
+/* --- */
+
+
+li {
+  line-height: 150%;
+}
