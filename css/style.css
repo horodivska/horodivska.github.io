@@ -187,4 +187,145 @@ label {
 }
 
 
+/* -- */
 
+.sentiments {
+  /*outline: 1px solid gray;*/
+}
+
+.sentiments > div {
+  display: flex;
+  width: 100%;
+
+  flex-flow: row wrap;
+
+  /*white-space: pre-wrap;*/
+  line-height: 150%;
+
+  margin-bottom: 15px;
+}
+
+.sentiments > div > span {
+  padding: 3px;
+  margin-bottom: 10px;
+
+  margin-right: 10px;
+  flex-wrap: wrap;
+
+  outline: 1px solid #cacaca;
+}
+
+
+.sentiment-crap {
+  opacity: 0.333;
+}
+
+.sentiment-DT,
+.sentiment-TO,
+.sentiment-CC,
+.sentiment-POS,
+.sentiment-MD,
+.sentiment-EX,
+.sentiment-UH /* !!! */
+
+{
+  color: gray;
+}
+
+
+.sentiment-VB,
+.sentiment-VBP,
+.sentiment-VBD,
+.sentiment-VBG,
+.sentiment-VBZ,
+.sentiment-VBN
+{
+  background-color: paleturquoise;
+}
+
+.sentiment-NN,
+.sentiment-NNS,
+.sentiment-NNPS,
+.sentiment-NNP
+{
+  background-color: bisque;
+}
+
+.sentiment-JJ,
+.sentiment-JJR
+{
+  background-color: lavenderblush;
+}
+
+.sentiment-RB,
+.sentiment-RP {
+  background-color: lavender;
+}
+
+.sentiment-IN {
+  background-color: azure;
+}
+
+.sentiment-PRP,
+.sentiment-PRB_BANG
+{
+  background-color: ivory;
+}
+
+.sentiment-CD {
+  background-color: lightgoldenrodyellow;
+}
+
+.sentiment-WRB {
+  background-color: antiquewhite;
+}
+
+
+.tester .years {
+  margin-bottom: 30px;
+}
+
+
+
+.years,
+.countries
+{
+  margin-bottom: 15px;
+
+  display: flex;
+  width: 100%;
+
+  flex-flow: row wrap;
+
+  /*white-space: pre-wrap;*/
+  line-height: 150%;
+
+}
+
+.countries {
+  margin-bottom: 30px;
+}
+
+.years a,
+.countries a
+{
+  margin-right: 10px;
+  }
+
+.years a.selected {
+  color: red;
+}
+
+.countries a.selected {
+  color: red;
+}
+
+#app {
+ -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
